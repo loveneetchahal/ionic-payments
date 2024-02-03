@@ -10,3 +10,16 @@ The app runs natively on iOS and Android and also works as mobile Progressive We
 ```bash
 ionic serve
 ```
+
+## Getting Started
+* Run `npm install` from the project root.
+* Run `ionic serve` in a terminal from the project root.
+
+## Build
+### Android
+* Add platform `ionic cordova platform add android`
+* Run `ionic cordova build android`
+
+### IOS
+* Add platform `ionic cordova platform add ios`
+* Run `ionic cordova build ios`
